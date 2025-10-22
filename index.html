@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="up">
+        <input type="text" class="user" id="sername" placeholder="Введите Фамилию">
+        <input type="text" class="user" id="name" placeholder="Введите Имя">
+    </div>
+    <div class="main">
+        <div>
+            <input type="checkbox" class="ch" name="menu" value="80">
+            <p>Эспресо 80р.</p>
+            <input type="number" min="0" max="100"  class="count" name="count" placeholder="0">
+        </div>
+        <div>
+            <input type="checkbox" class="ch" name="menu" value="110">
+            <p>Латте 110р.</p>
+            <input type="number" min="0" max="100" class="count" name="count" placeholder="0">
+        </div>
+        <div>
+            <input type="checkbox" class="ch" name="menu" value="120">
+            <p>Капучино 120р.</p>
+            <input type="number" min="0" max="100" class="count" name="count" placeholder="0">
+        </div>
+        <div>
+            <input type="checkbox" class="ch" name="menu" value="90">
+            <p>Американо 90р.</p>
+            <input type="number" min="0" max="100" class="count" name="count" placeholder="0">
+        </div>
+        <div>
+            <input type="checkbox" class="ch" name="menu" value="80">
+            <p>Шоколадный кекс 80р.</p>
+            <input type="number" min="0" max="100" class="count" name="count" placeholder="0">
+        </div>
+        <div>
+            <input type="checkbox" class="ch" name="menu" value="90">
+            <p>Черничный кекс 90р.</p>
+            <input type="number" min="0" max="100" class="count" name="count" placeholder="0">
+        </div>
+        <div>
+            <input type="checkbox" class="ch" name="menu" value="100">
+            <p>Яблочный тарт 100р.</p>
+            <input type="number" min="0" max="100" class="count" name="count" placeholder="0">
+        </div>
+    </div>
+    <div class="down">
+        <p>Итого: <span id="total">0 р.</span></p>
+        <button id="btn">ОФОРМИТЬ ЗАКАЗ</button>
+    </div>
+    
+</body>
+</html>
